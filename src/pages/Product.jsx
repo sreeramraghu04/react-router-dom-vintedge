@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 
 export default function Product() {
   return (
-    <div className="min-h-screen px-4 sm:px-8 lg:px-28 py-16 bg-gradient-to-b from-black via-purple-950/20 to-black text-white">
+    <div className="min-h-screen px-4 sm:px-8 lg:p-25 py-16 bg-gradient-to-b from-black via-purple-950/20 to-black text-white">
       <Helmet>
         <title>Cars - VintEdge</title>
       </Helmet>

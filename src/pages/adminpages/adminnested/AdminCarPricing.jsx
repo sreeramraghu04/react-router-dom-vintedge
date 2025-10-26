@@ -29,9 +29,9 @@ const AdminCarPricing = () => {
         <Link
           to=".."
           relative="path"
-          className="inline-block mt-4 px-4 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all"
+          className="inline-block mt-4 px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all"
         >
-          Back to Cars List
+          ← Back to Cars List
         </Link>
       </div>
 

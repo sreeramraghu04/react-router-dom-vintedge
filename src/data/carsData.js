@@ -6,13 +6,15 @@ export const cars = [
     series: "Fastback or Coupe",
     restoration: "₹98,000/-",
     registration: "₹49,000/-",
-    price: "$38,000",
-    range: "420 km",
+    price: "₹2,38,000/-",
+    range: "10420 km",
     year: 1967,
     image: "/src/assets/carimg1.jpg",
-    income: "$15,000",
+    income: "₹15,500/-",
     description:
-      "High-performance electric sedan with autopilot and fast charging.",
+      "A vintage white Ford Mustang with bold blue racing stripes, captured head-on in front of a garage door.",
+    description1:
+      "A vintage Ford Mustang, likely from the late 1960s era, known for its iconic muscle car styling. The car is painted white with bold blue racing stripes running from the front to the back, giving it a sporty and aggressive look.",
     details:
       "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
   },
@@ -23,12 +25,15 @@ export const cars = [
     series: "GT Veloce-(GTV)",
     restoration: "₹78,000/-",
     registration: "₹39,000/-",
-    price: "$18,000",
-    range: "312 km",
+    price: "₹1,18,000/-",
+    range: "20312 km",
     year: 1966,
     image: "/src/assets/carimg2.jpg",
-    income: "$15,000",
-    description: "Compact electric SUV with reliable range and modern design.",
+    income: "₹22,300/-",
+    description:
+      "A beautifully maintained red vintage Alfa Romeo coupe with rally-style front lights parked on a charming European street.",
+    description1:
+      "This is a classic Alfa Romeo GT 2000 Veloce, a stylish Italian sports coupe produced in the early 1970s. Known for its elegant Bertone-designed body, the car features a distinctive front grille with four round headlights and a sleek, aerodynamic profile.",
     details:
       "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
   },
@@ -39,12 +44,15 @@ export const cars = [
     series: "International",
     restoration: "₹99,000/-",
     registration: "₹49,000/-",
-    price: "$18,000",
-    range: "312 km",
+    price: "₹78,000/-",
+    range: "26460 km",
     year: 2021,
     image: "/src/assets/carimg3.jpg",
-    income: "$15,000",
-    description: "Compact electric SUV with reliable range and modern design.",
+    income: "₹25,000/-",
+    description:
+      "A classic green International Harvester station wagon parked along a city street.",
+    description1:
+      "The car in the image is a classic green International Harvester Travelall, likely from the 1960s or early 1970s. It features a boxy station wagon design with a chrome front grille, round headlights, and a long body suitable for carrying passengers and cargo.",
     details:
       "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
   },
@@ -55,12 +63,15 @@ export const cars = [
     series: "Tri-Five",
     restoration: "₹78,000/-",
     registration: "₹69,000/-",
-    price: "$18,000",
-    range: "312 km",
+    price: "₹2,58,000/-",
+    range: "13658 km",
     year: 1956,
     image: "/src/assets/carimg4.jpg",
-    income: "$15,000",
-    description: "Compact electric SUV with reliable range and modern design.",
+    income: "₹65,000/-",
+    description:
+      "A row of beautifully restored vintage Chevrolet cars with vibrant paint jobs and open hoods showcased at an outdoor car show.",
+    description1:
+      "This models shows a lineup of beautifully restored classic Chevrolet cars from the 1950s, likely models from the 1955–1957 Chevrolet Bel Air series. The cars are painted in vibrant colors — blue, turquoise, and red.",
     details:
       "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
   },

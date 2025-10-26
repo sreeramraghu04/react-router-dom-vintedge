@@ -12,12 +12,14 @@ export default function AdminCarCard({ car }) {
       </div>
       <h3 className="text-xl font-bold text-purple-300">{car.name}</h3>
       <p className="text-gray-400">{car.range}</p>
-      <p className="text-green-400 font-semibold">{car.price}</p>
+      <p className="text-gray-400 font-semibold">
+        Price: <span className="text-green-400">{car.price}</span>
+      </p>
       <Link
         to={`${car.id}`}
         className="mt-3 px-4 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all text-center"
       >
-        View Details
+        View Car Details
       </Link>
     </div>
   );

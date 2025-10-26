@@ -11,7 +11,7 @@ export default function ProductDetails() {
     return <p className="text-center text-red-500 mt-20">Car not found!</p>;
 
   return (
-    <div className="min-h-screen px-4 sm:px-8 lg:px-28 py-16 bg-gradient-to-b from-black via-purple-950/20 to-black text-white">
+    <div className="min-h-screen px-4 sm:px-8 lg:p-25 py-16 bg-gradient-to-b from-black via-purple-950/20 to-black text-white">
       <Helmet>
         <title>{car.name} - VintEdge</title>
       </Helmet>
@@ -44,7 +44,7 @@ export default function ProductDetails() {
             {car.price}
           </p>
 
-          <button className="mt-4 px-6 py-3 sm:px-8 sm:py-4 bg-green-600 hover:bg-green-700 rounded-lg font-semibold text-base sm:text-lg transition-all shadow-lg hover:shadow-purple-600/30">
+          <button className="mt-4 px-6 py-3 sm:px-8 sm:py-4 bg-green-600 hover:bg-green-700 rounded-lg font-semibold text-base sm:text-lg transition-all shadow-lg hover:shadow-green-600/30">
             Buy Now
           </button>
 

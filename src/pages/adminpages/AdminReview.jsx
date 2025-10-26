@@ -22,7 +22,7 @@ export default function AdminCarReviews() {
 
   return (
     <div className="p-4 sm:p-6 max-w-4xl mx-auto">
-      <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-purple-400 text-center">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-purple-300 text-center">
         Reviews
       </h2>
 
@@ -41,9 +41,9 @@ export default function AdminCarReviews() {
       <Link
         to=".."
         relative="path"
-        className="inline-block mt-6 px-4 py-2 w-full sm:w-auto bg-purple-600 rounded-lg hover:bg-purple-700 transition-all text-center"
+        className="inline-block mt-6 px-4 py-2 w-full sm:w-auto bg-gray-800 rounded-lg hover:bg-gray-700 transition-all text-center"
       >
-        Back to Car List
+        ← Back to Car List
       </Link>
     </div>
   );

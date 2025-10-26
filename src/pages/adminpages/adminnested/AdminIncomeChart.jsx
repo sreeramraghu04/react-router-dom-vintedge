@@ -14,7 +14,7 @@ export default function AdminIncomeChart() {
           to="/income"
           className="text-purple-500 hover:underline mt-4 inline-block"
         >
-          Back to Income List
+          ← Back to Income List
         </Link>
       </div>
     );
@@ -50,9 +50,9 @@ export default function AdminIncomeChart() {
           <Link
             to=".."
             relative="path"
-            className="inline-block mt-4 px-4 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all"
+            className="inline-block mt-4 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all"
           >
-            Back to Income List
+            ← Back to Income List
           </Link>
         </div>
 

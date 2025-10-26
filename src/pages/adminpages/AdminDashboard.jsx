@@ -36,7 +36,7 @@ export default function AdminDashboard() {
             Total Income
           </h2>
           <p className="text-green-400 text-2xl sm:text-3xl font-semibold">
-            ${totalIncome}
+            ₹{totalIncome}
           </p>
         </div>
 
@@ -45,7 +45,7 @@ export default function AdminDashboard() {
             Total Reviews
           </h2>
           <p className="text-green-400 text-2xl sm:text-3xl font-semibold">
-            {allCars.length * 3}
+            {allCars.length - 1}
           </p>
         </div>
       </div>
