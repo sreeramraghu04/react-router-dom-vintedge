@@ -10,7 +10,7 @@ export const cars = [
     range: "10420 km",
     year: 1967,
     image: "/src/assets/carimg1.jpg",
-    income: "₹15,500/-",
+    income: "₹16,500/-",
     description:
       "A vintage white Ford Mustang with bold blue racing stripes, captured head-on in front of a garage door.",
     description1:
