@@ -44,6 +44,7 @@ const AdminCarDetails = () => {
           <li>Cars Details: {car.details}</li>
           <li>Cars Description: {car.description1}</li>
           <li>Cars Year: {car.year}</li>
+          <li>Cars Model: {car.model}</li>
           <li>Cars Series: {car.series}</li>
           <li>Restoration Cost: {car.restoration}</li>
           <li>Tax & Registration: {car.registration}</li>
