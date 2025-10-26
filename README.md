@@ -57,7 +57,7 @@ VintEdge is a modern, responsive web application built with **React** and **Reac
 - `/admin/income` → AdminIncome
   - `/admin/income/:id` → AdminIncomeChart
 - `/admin/allcars` → AdminCars
-  - `/admin/allcars/:id` → AdminSingleCar
+  - `/admin/allcars/:id` → AdminCarsSingle
     - `/dashboard`(Index route → AdminCarDetails)
     - `/pricing` → AdminCarPricing
     - `/photos` → AdminCarPhotos

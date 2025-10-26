@@ -42,10 +42,17 @@ const AdminCarPricing = () => {
         </h3>
         <ul className="text-gray-300 space-y-2">
           <li>Base Price: {car.price}</li>
-          <li>Restoration Cost: ₹3,00,000</li>
-          <li>Tax & Registration: ₹75,000</li>
+          <li>Restoration Cost: {car.restoration}</li>
+          <li>Tax & Registration: {car.registration}</li>
           <li className="text-green-400 font-semibold">
-            Total Value: ₹{Number(car.price.replace(/[^0-9]/g, "")) + 375000}
+            <p>
+              Total Value: ₹
+              {(
+                Number(String(car.price).replace(/[^0-9]/g, "")) +
+                Number(String(car.restoration).replace(/[^0-9]/g, "")) +
+                Number(String(car.registration).replace(/[^0-9]/g, ""))
+              ).toLocaleString("en-IN")}
+            </p>
           </li>
         </ul>
       </div>
