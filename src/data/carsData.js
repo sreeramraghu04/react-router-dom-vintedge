@@ -9,7 +9,7 @@ export const cars = [
     price: "₹2,38,000/-",
     range: "10420 km",
     year: 1967,
-    image: "/src/assets/carimg1.jpg",
+    image: "/assets/carimg1.jpg",
     income: "₹15,500/-",
     description:
       "A vintage white Ford Mustang with bold blue racing stripes, captured head-on in front of a garage door.",
@@ -28,7 +28,7 @@ export const cars = [
     price: "₹1,18,000/-",
     range: "20312 km",
     year: 1966,
-    image: "/src/assets/carimg2.jpg",
+    image: "/assets/carimg2.jpg",
     income: "₹22,300/-",
     description:
       "A beautifully maintained red vintage Alfa Romeo coupe with rally-style front lights parked on a charming European street.",
@@ -47,7 +47,7 @@ export const cars = [
     price: "₹78,000/-",
     range: "26460 km",
     year: 2021,
-    image: "/src/assets/carimg3.jpg",
+    image: "/assets/carimg3.jpg",
     income: "₹25,000/-",
     description:
       "A classic green International Harvester station wagon parked along a city street.",
@@ -66,7 +66,7 @@ export const cars = [
     price: "₹2,58,000/-",
     range: "13658 km",
     year: 1956,
-    image: "/src/assets/carimg4.jpg",
+    image: "/assets/carimg4.jpg",
     income: "₹65,000/-",
     description:
       "A row of beautifully restored vintage Chevrolet cars with vibrant paint jobs and open hoods showcased at an outdoor car show.",
