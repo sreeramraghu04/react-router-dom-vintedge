@@ -42,6 +42,7 @@ const AdminCarPricing = () => {
         </h3>
         <ul className="text-gray-300 space-y-2">
           <li>Base Price: {car.price}</li>
+          <li>Base Price: {car.income}</li>
           <li>Restoration Cost: {car.restoration}</li>
           <li>Tax & Registration: {car.registration}</li>
           <li className="text-green-400 font-semibold">
