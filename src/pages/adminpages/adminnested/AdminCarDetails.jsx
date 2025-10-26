@@ -42,7 +42,7 @@ const AdminCarDetails = () => {
         </h3>
         <ul className="text-gray-300 space-y-2">
           <li>Cars Details: {car.details}</li>
-          <li>Cars Details: {car.description1}</li>
+          <li>Cars Description: {car.description1}</li>
           <li>Cars Year: {car.year}</li>
           <li>Cars Series: {car.series}</li>
           <li>Restoration Cost: {car.restoration}</li>
