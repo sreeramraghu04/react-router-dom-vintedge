@@ -16,7 +16,7 @@ export const cars = [
     description1:
       "A vintage Ford Mustang, likely from the late 1960s era, known for its iconic muscle car styling. The car is painted white with bold blue racing stripes running from the front to the back, giving it a sporty and aggressive look.",
     details:
-      "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
+      "The Ford Mustang is an American icon, distinguished by its long hood, short rear deck, and bold, aggressive styling that evoke its muscle car heritage.",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ export const cars = [
     description1:
       "This is a classic Alfa Romeo GT 2000 Veloce, a stylish Italian sports coupe produced in the early 1970s. Known for its elegant Bertone-designed body, the car features a distinctive front grille with four round headlights and a sleek, aerodynamic profile.",
     details:
-      "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
+      "The Alfa Romeo 1750 GT Veloce, also known as the 1750 GTV, is a classic Italian sports coupe produced from 1967 to 1972, and is revered for its elegant Bertone design and engaging performance.",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ export const cars = [
     description1:
       "The car in the image is a classic green International Harvester Travelall, likely from the 1960s or early 1970s. It features a boxy station wagon design with a chrome front grille, round headlights, and a long body suitable for carrying passengers and cargo.",
     details:
-      "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
+      "The International Harvester Travelall was a pioneering full-size SUV that offered a more truck-like, rugged alternative to station wagons from 1953 to 1975.",
   },
   {
     id: 4,
@@ -73,6 +73,6 @@ export const cars = [
     description1:
       "This models shows a lineup of beautifully restored classic Chevrolet cars from the 1950s, likely models from the 1955–1957 Chevrolet Bel Air series. The cars are painted in vibrant colors — blue, turquoise, and red.",
     details:
-      "Generally, vintage cars refer to vehicles manufactured between the years 1920 and 1970. These represent early advancements in automotive technology and often feature hand-crafted details, such as wooden frames, brass fixtures, and unique stylings.",
+      "The Chevrolet Bel Air is an iconic American full-size car, particularly celebrated for the 1955-1957 models known as the "Tri-Five" era, which cemented its legacy.",
   },
 ];
