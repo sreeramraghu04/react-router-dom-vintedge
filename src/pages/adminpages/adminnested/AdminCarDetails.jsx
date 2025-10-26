@@ -18,7 +18,7 @@ const AdminCarDetails = () => {
         <h2 className="text-3xl sm:text-4xl font-bold text-purple-400 mb-2">
           {car.name}
         </h2>
-        <p className="text-gray-300 mb-4">{car.description1}</p>
+        <p className="text-gray-300 mb-4">{car.description}</p>
         <div className="text-lg space-y-1">
           <p>
             Price: <span className="text-green-400">{car.price}</span>
@@ -42,6 +42,7 @@ const AdminCarDetails = () => {
         </h3>
         <ul className="text-gray-300 space-y-2">
           <li>Cars Details: {car.details}</li>
+          <li>Cars Details: {car.description1}</li>
           <li>Cars Year: {car.year}</li>
           <li>Cars Series: {car.series}</li>
           <li>Restoration Cost: {car.restoration}</li>
