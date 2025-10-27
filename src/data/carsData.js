@@ -46,7 +46,7 @@ export const cars = [
     registration: "₹49,000/-",
     price: "₹78,000/-",
     range: "26460 km",
-    year: 2021,
+    year: 1965,
     image: "/src/assets/carimg3.jpg",
     income: "₹25,000/-",
     description:
