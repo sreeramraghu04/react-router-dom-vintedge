@@ -21,10 +21,10 @@ const AdminCarPricing = () => {
         <p className="text-gray-300 mb-4">{car.description}</p>
         <div className="text-lg space-y-1">
           <p>
-            Price: <span className="text-green-400">{car.price}</span>
+            Price: <span className="text-red-400">{car.price}</span>
           </p>
           <p>Range: {car.range}</p>
-          <p>Year: <span className="text-red-500">{car.year}</span></p>
+          <p>Year: <{car.year}</p>
         </div>
         <Link
           to=".."
@@ -41,11 +41,11 @@ const AdminCarPricing = () => {
           Pricing Information
         </h3>
         <ul className="text-gray-300 space-y-2">
-          <li>Base Price: <span className="text-red-500">{car.price}</span></li>
+          <li>Base Price: {car.price}</li>
           <li>Base Income: {car.income}</li>
           <li>Restoration Cost: {car.restoration}</li>
           <li>Tax & Registration: {car.registration}</li>
-          <li className="text-green-400 font-semibold">
+          <li className="text-green-500 font-semibold">
             <p>
               Total Value: ₹
               {(
