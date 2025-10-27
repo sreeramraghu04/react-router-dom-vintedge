@@ -73,6 +73,6 @@ export const cars = [
     description1:
       "This models shows a lineup of beautifully restored classic Chevrolet cars from the 1950s, likely models from the 1955–1957 Chevrolet Bel Air series. The cars are painted in vibrant colors — blue, turquoise, and red.",
     details:
-      "The Chevrolet Bel Air is an iconic American full-size car, particularly celebrated for the 1955-1957 models known as the "Tri-Five" era, which cemented its legacy.",
+      "The Chevrolet Bel Air is an iconic American full-size car, particularly celebrated for the 1955-1957 models known as the Tri-Five era, which cemented its legacy.",
   },
 ];

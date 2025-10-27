@@ -7,15 +7,15 @@ export default function AdminCarReviews() {
   const car = cars.find((item) => Number(item.id) === Number(id));
 
   const reviews = [
-    { id: 1, user: "John Doe", comment: "Amazing vintage car!" },
+    { id: 1, user: "Dolu", comment: "Amazing vintage car!" },
     {
       id: 2,
-      user: "Jane Smith",
+      user: "Bolu",
       comment: "Beautiful design, very smooth ride.",
     },
     {
       id: 3,
-      user: "Alex Johnson",
+      user: "Khalia",
       comment: "A classic masterpiece, worth every penny!",
     },
   ];
