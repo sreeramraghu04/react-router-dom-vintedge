@@ -24,7 +24,7 @@ const AdminCarPricing = () => {
             Price: <span className="text-red-400">{car.price}</span>
           </p>
           <p>Range: {car.range}</p>
-          <p>Year: <{car.year}</p>
+          <p>Year: {car.year}</p>
         </div>
         <Link
           to=".."
