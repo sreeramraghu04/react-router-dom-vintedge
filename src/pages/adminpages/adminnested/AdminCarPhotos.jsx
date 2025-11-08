@@ -21,7 +21,7 @@ const AdminCarPhotos = () => {
         <p className="text-gray-300 mb-4">{car.description}</p>
         <div className="text-lg space-y-1">
           <p>
-            Price: <span className="text-green-400">{car.price}</span>
+            Price: <span className="text-green-500">{car.price}</span>
           </p>
           <p>Range: {car.range}</p>
           <p>Year: {car.year}</p>

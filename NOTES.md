@@ -21,7 +21,12 @@
 8. relative link ?
 
 - pending:
+
   - usesearchparams / queryparams
+    access the search params in the home component using the hook from react rouder dom set a variable holds search params(creating a state using usesearchparams hook)
+    save the value of the brand of the product from the search params object to a variable called brand filter
+    log the value of the brand filter to the console
+
   - hook = use search params
   - uselocation
   - loader function

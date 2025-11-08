@@ -1,10 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import SimpleSlider from "../components/Banner";
+import SearchBar from "../components/SearchBar";
+import { cars } from "../data/carsData";
+import CarCard from "../components/CarCard";
+import { useState } from "react";
 
 export default function Home() {
+  const [searchparams, setSearchparams] = useSearchParams();
+  const [searchTerm, setSearchTerm] = useState("");
+  /* console.log(searchparams.get("brand")); */
+
+  const brandFilter = searchparams.get("brand");
+  console.log(brandFilter);
+
   return (
-    <div className="relative w-full h-screen overflow-hidden text-white">
+    <div className="relative w-full h- overflow-hidden text-white">
       <Helmet>
         <title>Home - VintEdge</title>
       </Helmet>
@@ -32,6 +43,23 @@ export default function Home() {
         >
           Explore Cars
         </Link>
+        {/* Search Bar */}
+        <div className="mt-10">
+          <SearchBar setSearchTerm={setSearchTerm} />
+        </div>
+        <div className="mt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {cars &&
+              cars
+                .filter((car) => {
+                  return searchTerm.toLowerCase() === ""
+                    ? car
+                    : car.brand.toLowerCase().includes(searchTerm);
+                })
+
+                .map((car) => <CarCard key={car.id} car={car} />)}
+          </div>
+        </div>
       </div>
     </div>
   );

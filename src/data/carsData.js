@@ -2,6 +2,7 @@ export const cars = [
   {
     id: 1,
     name: "Ford Mustang",
+    brand: "Ford",
     model: "1966 - 1968",
     series: "Fastback or Coupe",
     restoration: "₹98,000/-",
@@ -21,6 +22,7 @@ export const cars = [
   {
     id: 2,
     name: "Alfa Romeo 1750 GT",
+    brand: "Italian Automobile Manufacturer",
     model: "1962 - 1968",
     series: "GT Veloce-(GTV)",
     restoration: "₹78,000/-",
@@ -40,6 +42,7 @@ export const cars = [
   {
     id: 3,
     name: "Harvester Travelall",
+    brand: "International Travelall",
     model: "1960 - 1970",
     series: "International",
     restoration: "₹99,000/-",
@@ -59,6 +62,7 @@ export const cars = [
   {
     id: 4,
     name: "Chevrolet Bel Air Models",
+    brand: "Chevrolet",
     model: "1955 - 1957",
     series: "Tri-Five",
     restoration: "₹78,000/-",
