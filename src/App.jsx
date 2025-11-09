@@ -21,6 +21,8 @@ function App() {
   return (
     <div>
       <Routes>
+        
+        //* Normal Section
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="cars" element={<Product />} />
@@ -29,6 +31,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<PageNotFound />} />
 
+          //* Admin Navbar Section
           <Route path="admin" element={<AdminNavbar />}>
             <Route index element={<AdminDashboard />} />
             <Route path="income" element={<AdminIncome />} />
@@ -36,6 +39,7 @@ function App() {
             <Route path="review" element={<AdminReview />} />
             <Route path="allcars" element={<AdminAllCars />} />
 
+            //* Admin Single Cars Section
             <Route path="allcars/:id" element={<AdminCarsSingle />}>
               <Route index element={<AdminCarDetails />} />
               <Route path="pricing" element={<AdminCarPricing />} />
