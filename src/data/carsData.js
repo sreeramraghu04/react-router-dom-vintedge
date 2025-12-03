@@ -11,7 +11,7 @@ export const cars = [
     price: "₹2,38,000/-",
     range: "10420 km",
     year: 1967,
-    image: "/carimg1.jpg",
+    image: "/public/images/carimg2.jpg",
     income: "₹16,500/-",
     description:
       "A vintage white Ford Mustang with bold blue racing stripes, captured head-on in front of a garage door.",
