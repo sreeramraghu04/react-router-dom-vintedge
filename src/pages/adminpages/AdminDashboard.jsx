@@ -5,7 +5,7 @@ export default function AdminDashboard() {
   const [allCars, setAllCars] = useState([]);
 
   useEffect(() => {
-    setAllCars(cars); // Replace with API fetch later
+    setAllCars(cars);
   }, []);
 
   const totalIncome = allCars.reduce(
