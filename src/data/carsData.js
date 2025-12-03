@@ -1,6 +1,7 @@
 export const cars = [
   {
     id: 1,
+    type: "luxuary",
     name: "Ford Mustang",
     brand: "Ford",
     model: "1966 - 1968",
@@ -21,6 +22,7 @@ export const cars = [
   },
   {
     id: 2,
+    type: "premium",
     name: "Alfa Romeo 1750 GT",
     brand: "Italian Automobile Manufacturer",
     model: "1962 - 1968",
@@ -41,6 +43,7 @@ export const cars = [
   },
   {
     id: 3,
+    type: "low budget",
     name: "Harvester Travelall",
     brand: "International Travelall",
     model: "1960 - 1970",
@@ -61,6 +64,7 @@ export const cars = [
   },
   {
     id: 4,
+    type: "luxuary",
     name: "Chevrolet Bel Air Models",
     brand: "Chevrolet",
     model: "1955 - 1957",

@@ -4,9 +4,11 @@ import AuthContext from "../context/AuthContext";
 
 const NavBar = () => {
   const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext);
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const login = () => setIsLoggedIn(true);
+  
   const logout = () => setIsLoggedIn(false);
 
   const linkStyle = ({ isActive }) =>

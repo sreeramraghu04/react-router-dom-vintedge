@@ -1,41 +1,61 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { cars } from "../data/carsData";
 
-const SearchBar = ({ setSearchTerm }) => {
+const SearchBar = ({ setSearchTerm, generateBrandSearchParamsString }) => {
   return (
-    <fieldset className="flex flex-col items-center gap-3">
+    <fieldset className="w-full flex flex-col items-center gap-4">
       {/* Search Input */}
-      <div>
-        <input
-          onChange={(e) => setSearchTerm(e.target.value)}
-          type="search"
-          name="SearchBar"
-          placeholder="Search Your Brands...."
-          className="w-64 sm:w-80 py-2 pl-5 text-sm rounded-md border border-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-100 dark:text-gray-800"
-        />
-      </div>
+      <input
+        onChange={(e) => setSearchTerm(e.target.value)}
+        type="search"
+        placeholder="Search your brands..."
+        className="
+          w-full py-3 px-5 rounded-xl text-sm font-medium
+          bg-white/20 backdrop-blur-md text-white placeholder-gray-300
+          border border-white/30 shadow-md
+          focus:outline-none focus:ring-2 focus:ring-purple-400
+        "
+      />
 
       {/* Brand Buttons */}
-      <div className="flex gap-3 mt-2">
-        <Link to={cars.brand === "Ford"}>
-          <button className="px-4 py-2 text-sm font-semibold rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition">
+      <div className="flex flex-wrap justify-center gap-3">
+        <Link to={generateBrandSearchParamsString("brand", "ford")}>
+          <button
+            className="
+            px-5 py-2 rounded-full text-sm font-semibold
+            bg-purple-600 text-white
+            hover:bg-purple-700 transition-all duration-300
+            shadow-md hover:shadow-purple-500/40
+          "
+          >
             Ford
           </button>
         </Link>
 
-        <Link>
-          <button className="px-4 py-2 text-sm font-semibold rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition">
+        <Link to={generateBrandSearchParamsString("brand", "chevrolet")}>
+          <button
+            className="
+            px-5 py-2 rounded-full text-sm font-semibold
+            bg-purple-600 text-white
+            hover:bg-purple-700 transition-all duration-300
+            shadow-md hover:shadow-purple-500/40
+          "
+          >
             Chevrolet
           </button>
         </Link>
 
-        <Link>
-          <button className="px-4 py-2 text-sm font-semibold rounded-lg border border-purple-600 text-purple-600 hover:bg-purple-100 transition">
+        <Link to={generateBrandSearchParamsString("brand", null)}>
+          <button
+            className="
+            px-5 py-2 rounded-full text-sm font-semibold
+            border border-purple-400 text-purple-300
+            hover:bg-purple-500/20 transition-all duration-300
+          "
+          >
             All Brands
           </button>
         </Link>
-        
       </div>
     </fieldset>
   );

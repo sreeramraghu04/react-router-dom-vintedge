@@ -31,3 +31,7 @@
   - uselocation
   - loader function
   - usenavigate
+
+Add links to filter the cars by brand
+
+create a type filter in the cars page so that the user can filter the properties using type
