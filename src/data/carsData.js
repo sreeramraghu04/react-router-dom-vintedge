@@ -1,7 +1,7 @@
 export const cars = [
   {
     id: 1,
-    type: "luxuary",
+    type: "luxury",
     name: "Ford Mustang",
     brand: "Ford",
     model: "1966 - 1968",
@@ -11,7 +11,7 @@ export const cars = [
     price: "₹2,38,000/-",
     range: "10420 km",
     year: 1967,
-    image: "/src/assets/carimg1.jpg",
+    image: "/carimg1.jpg",
     income: "₹16,500/-",
     description:
       "A vintage white Ford Mustang with bold blue racing stripes, captured head-on in front of a garage door.",
