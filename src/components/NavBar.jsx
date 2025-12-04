@@ -8,7 +8,7 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const login = () => setIsLoggedIn(true);
-  
+
   const logout = () => setIsLoggedIn(false);
 
   const linkStyle = ({ isActive }) =>
@@ -35,6 +35,9 @@ const NavBar = () => {
             <>
               <NavLink to="/admin" className={linkStyle}>
                 Admin
+              </NavLink>
+              <NavLink to="/cars" className={linkStyle}>
+                Cars
               </NavLink>
               <button
                 onClick={logout}
@@ -114,6 +117,13 @@ const NavBar = () => {
                 >
                   Admin
                 </NavLink>
+                {/* <NavLink
+                  to="/allcars"
+                  className={linkStyle}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Cars
+                </NavLink> */}
                 <button
                   onClick={() => {
                     logout();

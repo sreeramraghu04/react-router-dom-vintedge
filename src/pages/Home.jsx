@@ -42,7 +42,7 @@ export default function Home() {
       <div className="relative z-20 flex flex-col items-center justify-center text-center h-screen px-4 sm:px-6 md:px-12 lg:mt-2 mt-20">
         {/* TITLE */}
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 text-purple-400 drop-shadow-xl">
-          Welcome to VintEdge ⚡
+          Welcome to VintEdge⚡
         </h1>
 
         {/* DESCRIPTION */}
