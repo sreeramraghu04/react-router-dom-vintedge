@@ -8,7 +8,12 @@ VintEdge is a modern, responsive web application built with **React** and **Reac
 
 ### User-Facing
 
-- **Home Page:** Stunning hero section with a banner slider.
+- **Home Page:** Stunning hero section with a responsive banner slider.
+- **Home Page Filters:**  
+  A **filter set integrated directly on the Home page** allowing users to:
+  - Filter cars by **Brand**
+  - Filter cars by **Type**
+  - Instantly refine results from the front screen
 - **Car Listings:** Browse vintage cars with essential specs.
 - **Car Details:** View individual car details, pricing, and photo gallery.
 - **About Page:** Learn about the mission and offerings.
@@ -35,9 +40,9 @@ VintEdge is a modern, responsive web application built with **React** and **Reac
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-- ![alt text](vintedge.png)
+- ![alt text](vintedge-homepage.png)
 
 ---
 
@@ -45,7 +50,7 @@ VintEdge is a modern, responsive web application built with **React** and **Reac
 
 ### Public Routes
 
-- `/` → Home
+- `/` → Home (with Brand & Type Filters)
 - `/about` → About
 - `/contact` → Contact
 - `/cars` → Product (Cars List)
@@ -58,7 +63,7 @@ VintEdge is a modern, responsive web application built with **React** and **Reac
   - `/admin/income/:id` → AdminIncomeChart
 - `/admin/allcars` → AdminCars
   - `/admin/allcars/:id` → AdminCarsSingle
-    - `/dashboard`(Index route → AdminCarDetails)
+    - `/dashboard` → AdminCarDetails (Index Route)
     - `/pricing` → AdminCarPricing
     - `/photos` → AdminCarPhotos
 - `/admin/review` → AdminReview
@@ -67,12 +72,14 @@ VintEdge is a modern, responsive web application built with **React** and **Reac
 
 ## 📱 Responsiveness
 
-- Fully mobile-friendly with a **hamburger menu** for navigation.
+- Fully mobile-friendly layout across all pages.
+- Responsive **banner slider** optimized for mobile and large screens.
+- Home page filter set adapts smoothly to all screen sizes.
 - Admin panel secondary navbar collapses on smaller screens.
 - TailwindCSS utility classes used extensively for responsive layouts.
 
 ---
 
-## Demo Link
+## 🔗 Demo Link
 
 [Live Demo](https://vintedge.sreeramraghu.online/)
