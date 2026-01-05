@@ -8,14 +8,14 @@ import Slider from "react-slick";
 
 export default function SimpleSlider() {
   const settings = {
-    dots: false, // looks cleaner as background
+    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    fade: true, // smooth fade transition
+    fade: true,
     arrows: false,
     pauseOnHover: false,
   };
@@ -23,17 +23,30 @@ export default function SimpleSlider() {
   const images = [img1, img2, img3, img4, img5];
 
   return (
-    <div className="w-full h-screen relative overflow-hidden">
-      <Slider {...settings} className="h-screen">
+    <div className="relative w-full min-h-[70vh] sm:min-h-[80vh] lg:min-h-screen overflow-hidden">
+      <Slider {...settings}>
         {images.map((img, index) => (
-          <div key={index} className="relative w-full h-screen">
+          <div
+            key={index}
+            className="relative w-full min-h-[70vh] sm:min-h-[80vh] lg:min-h-screen"
+          >
             <img
               src={img}
               alt={`slide-${index}`}
-              className="w-full h-screen object-cover brightness-75"
+              className="w-full h-[60vh] sm:h-[80vh] lg:h-screen object-cover"
             />
-            {/* optional overlay if you need stronger darkness */}
-            <div className="absolute inset-0 bg-black/40" />
+
+            <div className="absolute inset-0 bg-black/50" />
+
+            <div
+              className="
+                pointer-events-none
+                absolute bottom-0 left-0 w-full h-48
+                bg-black
+                backdrop-blur-lg
+                [mask-image:linear-gradient(to_top,black,transparent)]
+              "
+            />
           </div>
         ))}
       </Slider>

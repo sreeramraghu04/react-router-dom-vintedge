@@ -27,7 +27,7 @@ export default function Home() {
   };
 
   return (
-    <div className="relative w-full min-h-screen overflow-hidden text-white">
+    <div className="relative w-full min-h-screen overflow-hidden text-white bg-black">
       <Helmet>
         <title>Home - VintEdge</title>
       </Helmet>
@@ -64,9 +64,7 @@ export default function Home() {
         {/* FILTER BOX */}
         <div
           className="mt-12 w-full max-w-4xl mx-auto
-          bg-white/10 backdrop-blur-md 
-          rounded-2xl shadow-xl border border-white/20 
-          p-6 sm:p-8"
+          bg-white/10 backdrop-blur-md rounded-2xl shadow-xl border border-white/20 p-6 sm:p-8"
         >
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-8">
             {/* Search Bar */}
